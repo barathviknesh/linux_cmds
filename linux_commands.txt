@@ -1,0 +1,48 @@
+Linux commands :
+
+1. hostname - machine name
+2. ifconfig - ip address
+3. data - sys date
+4. whoami - current user
+5. top - sys info
+6. clear - clear the terminal (q)
+7. free -m - sys memnory details
+8. pwd- present working directory
+9. history - display used cmds
+10. man - manual man history
+11. uname -device os
+12. create user - man useradd manual
+13. useradd -m bluser (bluser user added)
+14. su - switch user
+15. su bluser - user switched to bluser
+16. cd ~ - go home director 
+17. cd - change directory
+18. ls - list
+19. ls -l - list with details
+
+file types
+
+20. d - director/folders
+21. - file
+22. l -  link files
+
+23. mkdir - make directory (mkdir blackmirror)
+24. cd bla* -shortcut
+24. touch - used to create empty file (touch empty)
+25. cat - to see inside content inside the file (cat empty)
+26. rm - remove (em empty)
+27. rmdir - folder delete (rmdir blackmirror)
+28. cp - copy (cp file1 file2) file source file , file2 destiny file
+29. rm file* - it will delete file1 and file2 and filex....
+30. rm -rf folder1 (rf forcefull)
+31. passwd - set password
+32. less /etc/passwd - give all details of user
+33. passwd abuser - set password for absuer
+34. less /etc/shadow - the place where password can be viewed 
+35. less /etc/group - group user details 
+36. grep - search (grep abuser /etc/passwd)
+37. grep abuser /etc/group
+38. usermod --append --groups root,kamal abuser  (usermod - to assigin the abuser to root & kamal)
+39. grep abuser /etc/group - search group of abuser
+40. usermod --expiredate 2022-12-12 abuser (the abuser with get expire on that date)
+
